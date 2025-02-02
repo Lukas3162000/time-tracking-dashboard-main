@@ -73,3 +73,48 @@ html,body{
 .profileCard h1{
     font-weight: 300;
 }
+
+/*Normal Card general*/
+
+.normalCard{
+    background-color: red;
+    border-radius: 0.78rem;
+}
+
+.Graphic{
+    background-color: orange;
+    border-radius: 0.78rem 0.78rem 0 0 ;
+    width: 100%;
+    height: 15%;
+    text-align: end;
+    overflow: hidden;
+}
+
+.Graphic img{
+    padding-right: 1rem;
+    width: 4.4rem;
+}
+
+.TextContent {
+    padding: 1.77rem;
+    background-color: green;
+}
+
+.TextContent .menu{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+ font-weight: 500;
+
+ font-size: rem;
+}
+
+.TextContent .hours{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.TextContent .comparison{
+    font-size: 0.89rem;
+}
