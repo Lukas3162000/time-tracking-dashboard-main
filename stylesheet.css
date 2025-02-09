@@ -26,6 +26,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #FFFFFF;
 
     font-family: Rubik;
     font-size: 18px;
@@ -99,7 +100,7 @@ html,body{
     background-color: orange;
     border-radius: 0.78rem 0.78rem 0 0 ;
     width: 100%;
-    height: 25%;
+    height: 15%;
     text-align: end;
     overflow: hidden;
 }
@@ -110,7 +111,7 @@ html,body{
 }
 
 .TextContent {
-    padding: 1.77rem;
+    padding: 1rem;
     background-color: green;
     height: 85%;
     border-radius: 0.78rem;
@@ -122,6 +123,7 @@ html,body{
  justify-content: space-between;
  width: 100%;
  font-weight: 500;
+ padding-bottom: 1.5rem;
 
  font-size: 1rem;
 }
@@ -129,12 +131,68 @@ html,body{
 .TextContent .hours{
     font-size: 3rem;
     font-weight: 300;
+    padding-bottom: 1rem;
 }
 
 .TextContent .comparison{
     font-size: 0.89rem;
 }
 
+
+
+  /*Styling of the Cards*/
+  .TextContent{
+    background-color: var(--NeutralDarkBlue);
+  }
+
+
+  .Work{
+    background-color: var(--PrimaryLightRed);
+  }
+  .Work .Graphic{
+    background-color: var(--PrimaryLightRed);
+  }
+
+  .Play{
+    background-color: var(--PrimarySoftBlue);
+  }
+  .Play .Graphic{
+    background-color: var(--PrimarySoftBlue);
+  }
+
+  .Study{
+    background-color: var(--PrimaryLightRed2);
+  }
+  .Study .Graphic{
+    background-color: var(--PrimaryLightRed2);
+  }
+
+  .Exercise{
+    background-color: var(--PrimaryLimeGreen);
+  }
+  .Exercise .Graphic{
+    background-color: var(--PrimaryLimeGreen);
+  }
+
+  .Social{
+    background-color: var(--PrimaryViolet);
+  }
+  .Social .Graphic{
+    background-color: var(--PrimaryViolet);
+  }
+
+  .self-care{
+    background-color: var(--PrimarySoftOrange);
+  }
+  .self-care .Graphic{
+    background-color: var(--PrimarySoftOrange);
+  }
+
+
+
+
+
+/*Mobile View*/
 @media (max-width: 800px) {
     .CardGrid {
       grid-template-columns: 1fr 1fr; 
@@ -168,4 +226,6 @@ html,body{
  
 
   }
+
+
   
