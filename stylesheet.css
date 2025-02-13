@@ -79,11 +79,20 @@ html,body{
 
 .UnderContent p{
     padding-bottom: 1rem;
+    color: hsla(0, 100%, 100%, 0.5);
+}
 
+.UnderContent p:hover{
+  cursor: pointer;
+  color: #FFFFFF;
 }
 
 .profileCard h1{
     font-weight: 300;
+}
+
+.UcText p{
+  color: hsla(0,0%,100%,0.7);
 }
 
 /*Normal Card general*/
@@ -91,13 +100,11 @@ html,body{
 .normalCard{
     display: flex;
     flex-direction: column;
-    background-color: orange;
     border-radius: 0.78rem;
     max-width: 100%;
 }
 
 .Graphic{
-    background-color: orange;
     border-radius: 0.78rem 0.78rem 0 0 ;
     width: 100%;
     height: 15%;
@@ -116,6 +123,10 @@ html,body{
     height: 85%;
     border-radius: 0.78rem;
 }
+.TextContent:hover{
+  cursor: pointer;
+  background-color: hsl(236,41%,34%);
+}
 
 .TextContent .menu{
  display: flex;
@@ -131,11 +142,11 @@ html,body{
 .TextContent .hours{
     font-size: 3rem;
     font-weight: 300;
-    padding-bottom: 1rem;
-}
+    padding-bottom: 1rem}
 
 .TextContent .comparison{
     font-size: 0.89rem;
+    color: hsla(0,0%,100%,0.6)
 }
 
 
