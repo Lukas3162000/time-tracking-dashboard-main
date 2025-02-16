@@ -19,11 +19,13 @@
       </div>
       </div>
       <div class="UnderContent">
-        	<p>Daily</p>
-          <p>Weekly</p>
-          <p>Monthly</p>
+        	<button onclick="loadData('daily')">Daily</button>
+          <button onclick="loadData('weekly')">Weekly</button>
+          <button onclick="loadData('monthly')">Monthly</button>
       </div>
     </div>
+
+
 
     <div class="normalCard Work">
       <div class="Graphic">
@@ -38,6 +40,8 @@
         <p class="comparison">Last Week - 36hrs</p>
       </div>
     </div>
+
+
 
     <div class="normalCard Play">
       <div class="Graphic">
@@ -113,9 +117,14 @@
   </div>
 
 
-  
+<script src="app.js"></script>
 
-  
+
+
+
+<!-- Test ---> 
+
+<!--  
 <script>
   fetch('./data.json') // Falls die Datei im gleichen Ordner liegt
   .then(response => {
@@ -131,7 +140,7 @@
     console.error('Fetch-Fehler:', error);
   });
 </script>
-
+---> 
 
 </body>
 </html>
